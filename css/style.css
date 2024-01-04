@@ -1,0 +1,360 @@
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
+}
+header .main-title {
+  text-align: center;
+  font-size: 60px;
+  margin: auto;
+  padding: 20px 0px;
+  font-family: 'Baskerville', 'Palatino Linotype';
+  text-decoration: none;
+}
+header .main-title a {
+  text-decoration: none;
+  color: #000;
+}
+header .main-line {
+  height: 1.5px;
+  width: 850px;
+  background-color: #dcdeeb;
+  margin: auto;
+}
+header .main-docker {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #c2c6eb;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  margin: auto;
+}
+header .main-docker ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  margin: auto;
+  color: #c2c6eb;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+header .main-docker ul li {
+  flex: 1;
+  text-align: center;
+  color: #c2c6eb;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+header .main-docker ul li a {
+  display: block;
+  padding: 0;
+  width: 170px;
+  color: #c2c6eb;
+  text-decoration: none;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+header .main-docker :hover {
+  color: #6766f1;
+}
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
+}
+footer {
+  width: 850px;
+  margin: auto;
+}
+.footer-info {
+  text-align: center;
+  color: #c2c6eb;
+  padding: 50px;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+.footer-info a {
+  color: #6766f1;
+  text-decoration: none;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
+}
+.home-line {
+  height: 2px;
+  width: 100%;
+  background-color: #dcdeeb;
+  margin: 10px 0px;
+}
+.home-post-article {
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+  padding: 10px 0px;
+}
+.home-post-title {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px 0px;
+  width: 850px;
+  letter-spacing: 2px;
+}
+.home-post-title a {
+  text-decoration: none;
+  color: #000;
+}
+.home-post-title :hover {
+  color: #6766f1;
+}
+.home-picture {
+  width: 70%;
+}
+.home-picture img {
+  height: auto;
+}
+.home-post {
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.home-post-excerpt {
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  padding: 10px 10px 0px 0px;
+  letter-spacing: 1.3px;
+}
+.home-flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 850px;
+}
+.pagination {
+  position: relative;
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.pagination-prev,
+.pagination-next {
+  font-size: 10px;
+  line-height: 30px;
+  height: 32px;
+  padding: 0 20px;
+  border-radius: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
+}
+.page-line {
+  height: 2px;
+  width: 100%;
+  background-color: #dcdeeb;
+  margin: 10px 0px;
+}
+.page-post {
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.page-title {
+  font-size: 30px;
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  padding: 5px 0px;
+  letter-spacing: 2px;
+}
+.page-time {
+  font-size: 15px;
+  font-style: italic;
+  color: #dcdeeb;
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+.page-content {
+  font-size: 17px;
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  letter-spacing: 1.3px;
+  line-height: 150%;
+}
+.page-content img {
+  max-width: 100%;
+  height: auto;
+}
+.page-content a {
+  text-decoration: none;
+  color: #6766f1;
+}
+.gallery-line {
+  height: 2px;
+  width: 850px;
+  background-color: #dcdeeb;
+  margin: 10px 0px;
+}
+.gallery-post {
+  font-family: 'Times New Roman', 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.gallery-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 850px;
+  height: auto;
+}
+.gallery-title {
+  width: 298px;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 15px 0px;
+}
+.gallery-title a {
+  text-decoration: none;
+  color: #000;
+}
+.gallery-title :hover {
+  color: #6766f1;
+}
+.gallery-pic img {
+  height: 135px;
+  width: 135px;
+  margin: 10px 0px 0px 0px;
+  padding: 10px 0px;
+  object-fit: cover;
+}
+.gallery-block {
+  height: 135px;
+  width: 4px;
+}
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
+}
+.novel-post {
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.novel-flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 850px;
+}
+.novel-line {
+  height: 2px;
+  width: 100%;
+  background-color: #dcdeeb;
+  margin: 10px 0px;
+}
+.page-article {
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+  padding: 10px 0px;
+}
+.page-description {
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  padding: 10px 10px 0px 0px;
+  letter-spacing: 1.3px;
+}
+.page-title {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px 0px;
+  width: 850px;
+  letter-spacing: 2px;
+}
+.page-title a {
+  text-decoration: none;
+  color: #000;
+}
+.page-title :hover {
+  color: #6766f1;
+}
+.page-picture {
+  width: 70%;
+}
+.page-picture img {
+  height: auto;
+}
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
+}
+.novels-post {
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.novels-flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 850px;
+}
+.novels-title {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px 0px;
+  width: 850px;
+  letter-spacing: 2px;
+}
+.novels-title a {
+  text-decoration: none;
+  color: #000;
+}
+.novels-title :hover {
+  color: #6766f1;
+}
+.novels-picture {
+  width: 70%;
+}
+.novels-picture img {
+  height: auto;
+}
+.original-post {
+  font-family: 'Times New Roman', 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.original-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 850px;
+  height: auto;
+}
+.original-line {
+  height: 2px;
+  width: 850px;
+  background-color: #dcdeeb;
+  margin: 10px 0px;
+}

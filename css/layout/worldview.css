@@ -1,5 +1,5 @@
 .original-post {
-  font-family: 'Times New Roman', 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
   width: 850px;
   margin: auto;
   padding: 20px;
@@ -15,6 +15,6 @@
 .original-line {
   height: 2px;
   width: 850px;
-  background-color: #dcdeeb;
+  background-color: $originallinecolor;
   margin: 10px 0px;
 }
