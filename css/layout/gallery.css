@@ -1,0 +1,44 @@
+.gallery-line {
+  height: 2px;
+  width: 850px;
+  background-color: #dcdeeb;
+  margin: 10px 0px;
+}
+.gallery-post {
+  font-family: 'Times New Roman', 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.gallery-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 850px;
+  height: auto;
+}
+.gallery-title {
+  width: 298px;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 15px 0px;
+}
+.gallery-title a {
+  text-decoration: none;
+  color: #000;
+}
+.gallery-title :hover {
+  color: #6766f1;
+}
+.gallery-pic img {
+  height: 135px;
+  width: 135px;
+  margin: 10px 0px 0px 0px;
+  padding: 10px 0px;
+  object-fit: cover;
+}
+.gallery-block {
+  height: 135px;
+  width: 4px;
+}

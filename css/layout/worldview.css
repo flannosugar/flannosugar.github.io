@@ -1,0 +1,20 @@
+.original-post {
+  font-family: 'Times New Roman', 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.original-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 850px;
+  height: auto;
+}
+.original-line {
+  height: 2px;
+  width: 850px;
+  background-color: #dcdeeb;
+  margin: 10px 0px;
+}
