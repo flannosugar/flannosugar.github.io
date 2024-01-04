@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "SourceHanSerif";
-  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
-}
 header .main-title {
   text-align: center;
   font-size: 60px;
@@ -56,33 +52,25 @@ header .main-docker ul li a {
 header .main-docker :hover {
   color: #6766f1;
 }
-@font-face {
-  font-family: "SourceHanSerif";
-  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
-}
 footer {
   width: 850px;
   margin: auto;
 }
 .footer-info {
   text-align: center;
-  color: #c2c6eb;
+  color: $footerinfocolor;
   padding: 50px;
-  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
 }
 .footer-info a {
-  color: #6766f1;
+  color: $footerinfocolora;
   text-decoration: none;
-  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
-}
-@font-face {
-  font-family: "SourceHanSerif";
-  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
+  font-family: $fontfamily;
 }
 .home-line {
   height: 2px;
   width: 100%;
-  background-color: #dcdeeb;
+  background-color: $homelinecolor;
   margin: 10px 0px;
 }
 .home-post-article {
@@ -101,10 +89,10 @@ footer {
 }
 .home-post-title a {
   text-decoration: none;
-  color: #000;
+  color: $titlecolor;
 }
 .home-post-title :hover {
-  color: #6766f1;
+  color: $titlehovercolor;
 }
 .home-picture {
   width: 70%;
@@ -113,7 +101,7 @@ footer {
   height: auto;
 }
 .home-post {
-  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
   width: 850px;
   margin: auto;
   padding: 20px;
@@ -121,7 +109,7 @@ footer {
   font-size: 15px;
 }
 .home-post-excerpt {
-  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
   padding: 10px 10px 0px 0px;
   letter-spacing: 1.3px;
 }
@@ -153,10 +141,6 @@ footer {
   border-radius: 16px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-}
-@font-face {
-  font-family: "SourceHanSerif";
-  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
 }
 .page-line {
   height: 2px;
@@ -201,11 +185,11 @@ footer {
 .gallery-line {
   height: 2px;
   width: 850px;
-  background-color: #dcdeeb;
+  background-color: $gallerylinecolor;
   margin: 10px 0px;
 }
 .gallery-post {
-  font-family: 'Times New Roman', 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
   width: 850px;
   margin: auto;
   padding: 20px;
@@ -226,10 +210,10 @@ footer {
 }
 .gallery-title a {
   text-decoration: none;
-  color: #000;
+  color: $titlecolor;
 }
 .gallery-title :hover {
-  color: #6766f1;
+  color: $titlehovercolor;
 }
 .gallery-pic img {
   height: 135px;
@@ -241,10 +225,6 @@ footer {
 .gallery-block {
   height: 135px;
   width: 4px;
-}
-@font-face {
-  font-family: "SourceHanSerif";
-  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
 }
 .novel-post {
   font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
@@ -298,10 +278,6 @@ footer {
 }
 .page-picture img {
   height: auto;
-}
-@font-face {
-  font-family: "SourceHanSerif";
-  src: url("/css/fonts/SourceHanSerif-Regular.otf"), url("/css/fonts/SourceHanSerif-Regular.ttc"), url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifK-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf"), url("/css/fonts/SourceHanSerifTC-Regular.otf"), url("/css/fonts/SourceHanSerif-VF.otf.woff2");
 }
 .novels-post {
   font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
@@ -357,4 +333,8 @@ footer {
   width: 850px;
   background-color: #dcdeeb;
   margin: 10px 0px;
+}
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("/css/fonts/SourceHanSerifCN-Regular.otf"), url("/css/fonts/SourceHanSerifSC-Regular.otf");
 }

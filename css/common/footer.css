@@ -1,0 +1,15 @@
+footer {
+  width: 850px;
+  margin: auto;
+}
+.footer-info {
+  text-align: center;
+  color: #c2c6eb;
+  padding: 50px;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+.footer-info a {
+  color: #6766f1;
+  text-decoration: none;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
