@@ -1,7 +1,7 @@
 .home-line {
   height: 2px;
   width: 100%;
-  background-color: #dcdeeb;
+  background-color: $homelinecolor;
   margin: 10px 0px;
 }
 .home-post-article {
@@ -20,10 +20,10 @@
 }
 .home-post-title a {
   text-decoration: none;
-  color: #000;
+  color: $titlecolor;
 }
 .home-post-title :hover {
-  color: #6766f1;
+  color: $titlehovercolor;
 }
 .home-picture {
   width: 70%;
@@ -32,7 +32,7 @@
   height: auto;
 }
 .home-post {
-  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
   width: 850px;
   margin: auto;
   padding: 20px;
@@ -40,7 +40,7 @@
   font-size: 15px;
 }
 .home-post-excerpt {
-  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
   padding: 10px 10px 0px 0px;
   letter-spacing: 1.3px;
 }

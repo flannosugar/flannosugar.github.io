@@ -58,19 +58,19 @@ footer {
 }
 .footer-info {
   text-align: center;
-  color: $footerinfocolor;
+  color: #c2c6eb;
   padding: 50px;
-  font-family: $fontfamily;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
 }
 .footer-info a {
-  color: $footerinfocolora;
+  color: #6766f1;
   text-decoration: none;
-  font-family: $fontfamily;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
 }
 .home-line {
   height: 2px;
   width: 100%;
-  background-color: $homelinecolor;
+  background-color: #dcdeeb;
   margin: 10px 0px;
 }
 .home-post-article {
@@ -89,10 +89,10 @@ footer {
 }
 .home-post-title a {
   text-decoration: none;
-  color: $titlecolor;
+  color: #000;
 }
 .home-post-title :hover {
-  color: $titlehovercolor;
+  color: #6766f1;
 }
 .home-picture {
   width: 70%;
@@ -101,7 +101,7 @@ footer {
   height: auto;
 }
 .home-post {
-  font-family: $fontfamily;
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
   width: 850px;
   margin: auto;
   padding: 20px;
@@ -109,7 +109,7 @@ footer {
   font-size: 15px;
 }
 .home-post-excerpt {
-  font-family: $fontfamily;
+  font-family: 'Times New Roman', "SourceHanSerif", 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
   padding: 10px 10px 0px 0px;
   letter-spacing: 1.3px;
 }
@@ -185,11 +185,11 @@ footer {
 .gallery-line {
   height: 2px;
   width: 850px;
-  background-color: $gallerylinecolor;
+  background-color: #dcdeeb;
   margin: 10px 0px;
 }
 .gallery-post {
-  font-family: $fontfamily;
+  font-family: 'Times New Roman', 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
   width: 850px;
   margin: auto;
   padding: 20px;
@@ -210,10 +210,10 @@ footer {
 }
 .gallery-title a {
   text-decoration: none;
-  color: $titlecolor;
+  color: #000;
 }
 .gallery-title :hover {
-  color: $titlehovercolor;
+  color: #6766f1;
 }
 .gallery-pic img {
   height: 135px;

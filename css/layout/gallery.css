@@ -1,11 +1,11 @@
 .gallery-line {
   height: 2px;
   width: 850px;
-  background-color: #dcdeeb;
+  background-color: $gallerylinecolor;
   margin: 10px 0px;
 }
 .gallery-post {
-  font-family: 'Times New Roman', 'Songti', 'SIMSUN', 'PingFang SC', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
   width: 850px;
   margin: auto;
   padding: 20px;
@@ -26,10 +26,10 @@
 }
 .gallery-title a {
   text-decoration: none;
-  color: #000;
+  color: $titlecolor;
 }
 .gallery-title :hover {
-  color: #6766f1;
+  color: $titlehovercolor;
 }
 .gallery-pic img {
   height: 135px;

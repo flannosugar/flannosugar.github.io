@@ -4,12 +4,12 @@ footer {
 }
 .footer-info {
   text-align: center;
-  color: #c2c6eb;
+  color: $footerinfocolor;
   padding: 50px;
-  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
 }
 .footer-info a {
-  color: #6766f1;
+  color: $footerinfocolora;
   text-decoration: none;
-  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
 }
