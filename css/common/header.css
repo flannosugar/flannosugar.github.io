@@ -3,7 +3,7 @@ header .main-title {
   font-size: 60px;
   margin: auto;
   padding: 20px 0px;
-  font-family: 'Baskerville', 'Palatino Linotype';
+  font-family: $titlefontfamily;
   text-decoration: none;
 }
 header .main-title a {
@@ -13,7 +13,7 @@ header .main-title a {
 header .main-line {
   height: 1.5px;
   width: 850px;
-  background-color: #dcdeeb;
+  background-color: $mainlinecolor;
   margin: auto;
 }
 header .main-docker {
@@ -21,8 +21,8 @@ header .main-docker {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  color: #c2c6eb;
-  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  color: $maindockeracolor;
+  font-family: $fontfamily;
   margin: auto;
 }
 header .main-docker ul {
@@ -32,23 +32,23 @@ header .main-docker ul {
   padding: 0;
   font-size: 20px;
   margin: auto;
-  color: #c2c6eb;
-  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  color: $maindockeracolor;
+  font-family: $fontfamily;
 }
 header .main-docker ul li {
   flex: 1;
   text-align: center;
-  color: #c2c6eb;
-  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  color: $maindockeracolor;
+  font-family: $fontfamily;
 }
 header .main-docker ul li a {
   display: block;
   padding: 0;
   width: 170px;
-  color: #c2c6eb;
+  color: $maindockeracolor;
   text-decoration: none;
-  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  font-family: $fontfamily;
 }
 header .main-docker :hover {
-  color: #6766f1;
+  color: $maindockerhovercolor;
 }
