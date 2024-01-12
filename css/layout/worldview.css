@@ -1,0 +1,20 @@
+.original-post {
+  font-family: $fontfamily;
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.original-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 850px;
+  height: auto;
+}
+.original-line {
+  height: 2px;
+  width: 850px;
+  background-color: $originallinecolor;
+  margin: 10px 0px;
+}

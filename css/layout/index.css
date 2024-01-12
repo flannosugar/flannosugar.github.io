@@ -1,0 +1,53 @@
+.home-line {
+  height: 2px;
+  width: 100%;
+  background-color: $homelinecolor;
+  margin: 10px 0px;
+}
+.home-post-article {
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+  padding: 10px 0px;
+}
+.home-post-title {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px 0px;
+  width: 850px;
+  letter-spacing: 2px;
+}
+.home-post-title a {
+  text-decoration: none;
+  color: $titlecolor;
+}
+.home-post-title :hover {
+  color: $titlehovercolor;
+}
+.home-picture {
+  width: 70%;
+}
+.home-picture img {
+  height: auto;
+}
+.home-post {
+  font-family: $fontfamily;
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.home-post-excerpt {
+  font-family: $fontfamily;
+  padding: 10px 10px 0px 0px;
+  letter-spacing: 1.3px;
+}
+.home-flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 850px;
+}

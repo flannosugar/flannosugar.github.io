@@ -1,0 +1,39 @@
+.page-line {
+  height: 2px;
+  width: 100%;
+  background-color: $postlinecolor;
+  margin: 10px 0px;
+}
+.page-post {
+  font-family: $fontfamily;
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+}
+.page-title {
+  font-size: 30px;
+  font-family: $fontfamily;
+  padding: 5px 0px;
+  letter-spacing: 2px;
+}
+.page-time {
+  font-size: 14px;
+  font-style: italic;
+  color: $posttimecolor;
+  font-family: $fontfamily;
+}
+.page-content {
+  font-size: 18.7px;
+  font-family: $fontfamily;
+  letter-spacing: 1.2px;
+  line-height: 190%;
+}
+.page-content img {
+  max-width: 100%;
+  height: auto;
+}
+.page-content a {
+  text-decoration: none;
+  color: $postacolor;
+}

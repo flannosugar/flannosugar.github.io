@@ -1,0 +1,15 @@
+footer {
+  width: 850px;
+  margin: auto;
+}
+.footer-info {
+  text-align: center;
+  color: $footerinfocolor;
+  padding: 50px;
+  font-family: $fontfamily;
+}
+.footer-info a {
+  color: $footerinfocolora;
+  text-decoration: none;
+  font-family: $fontfamily;
+}

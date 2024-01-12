@@ -1,0 +1,54 @@
+header .main-title {
+  text-align: center;
+  font-size: 60px;
+  margin: auto;
+  padding: 20px 0px;
+  font-family: 'Baskerville', 'Palatino Linotype';
+  text-decoration: none;
+}
+header .main-title a {
+  text-decoration: none;
+  color: #000;
+}
+header .main-line {
+  height: 1.5px;
+  width: 850px;
+  background-color: #dcdeeb;
+  margin: auto;
+}
+header .main-docker {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #c2c6eb;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+  margin: auto;
+}
+header .main-docker ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  margin: auto;
+  color: #c2c6eb;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+header .main-docker ul li {
+  flex: 1;
+  text-align: center;
+  color: #c2c6eb;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+header .main-docker ul li a {
+  display: block;
+  padding: 0;
+  width: 170px;
+  color: #c2c6eb;
+  text-decoration: none;
+  font-family: 'Baskerville', 'Palatino Linotype', "SourceHanSerif", 'Songti', 'SIMSUN', 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+header .main-docker :hover {
+  color: #6766f1;
+}

@@ -1,0 +1,35 @@
+.novels-post {
+  font-family: $fontfamily;
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.novels-flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 850px;
+}
+.novels-title {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px 0px;
+  width: 850px;
+  letter-spacing: 2px;
+}
+.novels-title a {
+  text-decoration: none;
+  color: $pagetitlecolor;
+}
+.novels-title :hover {
+  color: $pagetitlehovercolor;
+}
+.novels-picture {
+  width: 70%;
+}
+.novels-picture img {
+  height: auto;
+}

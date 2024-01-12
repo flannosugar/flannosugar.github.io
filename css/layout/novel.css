@@ -1,0 +1,53 @@
+.novel-post {
+  font-family: $fontfamily;
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+.novel-flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 850px;
+}
+.novel-line {
+  height: 2px;
+  width: 100%;
+  background-color: $novellinecolor;
+  margin: 10px 0px;
+}
+.page-article {
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+  padding: 10px 0px;
+}
+.page-description {
+  font-family: $fontfamily;
+  padding: 10px 10px 0px 0px;
+  letter-spacing: 1.3px;
+}
+.page-title {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px 0px;
+  width: 850px;
+  letter-spacing: 2px;
+}
+.page-title a {
+  text-decoration: none;
+  color: $pagetitlecolor;
+}
+.page-title :hover {
+  color: $pagetitlehovercolor;
+}
+.page-picture {
+  width: 70%;
+}
+.page-picture img {
+  height: auto;
+}
