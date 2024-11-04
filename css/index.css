@@ -35,20 +35,20 @@ article.post-view__article .article__content p {
 }
 article.post-view__article .article__content h1,
 article.post-view__article .article__content h2 {
-  font-size: 3.4rem;
+  font-size: $font-size-m-3;
   line-height: 4.4rem;
 }
 article.post-view__article .article__content h3 {
-  font-size: 2.8rem;
+  font-size: $font-size-m-2;
   line-height: 3.6rem;
 }
 article.post-view__article .article__content h4,
 article.post-view__article .article__content h5 {
-  font-size: 2.2rem;
+  font-size: $font-size-m-1;
   line-height: 3rem;
 }
 article.post-view__article .article__content h6 {
-  font-size: 1.8rem;
+  font-size: $font-size-s-3;
   line-height: 2.6rem;
 }
 article.post-view__article .article__content p,
@@ -56,7 +56,7 @@ article.post-view__article .article__content li,
 article.post-view__article .article__content ol,
 article.post-view__article .article__content table,
 article.post-view__article .article__content code {
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
 }
 article.post-view__article .article__content small {
@@ -83,7 +83,7 @@ article.post-view__article .article__content .gutter {
   border-right: 1px solid #ccc !important;
 }
 article.post-view__article .article__content code.hljs {
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
   width: 100%;
   overflow-x: scroll;
@@ -95,7 +95,7 @@ article.post-view__article .article__content table code.hljs {
   margin: 0;
 }
 article.post-view__article .article__content code:not(.hljs) {
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
   color: #333;
   font-weight: bold;
@@ -108,7 +108,7 @@ article.post-view__article .article__content code:not(.hljs) {
 }
 article.post-view__article .article__content ul,
 article.post-view__article .article__content ol {
-  font-size: 1.6rem;
+  font-size: $font-size-s-2;
   line-height: 2.4rem;
   padding-left: 2em;
 }
@@ -176,7 +176,7 @@ article.post-view__article .article__content .mjx-chtml {
   text-align: center;
   padding: 3rem 0;
   background: #a196e1;
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
 }
 @media screen and (max-width: 580px) {
@@ -199,13 +199,13 @@ article.post-view__article .article__content .mjx-chtml {
   color: #444;
 }
 .head__inner h1 {
-  font-size: 6.4rem;
+  font-size: $font-size-l-2;
   line-height: 8.2rem;
   margin-bottom: 1rem;
   font-weight: 400;
 }
 .head__inner p {
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
 }
 .bottom-line-1 {
@@ -221,7 +221,7 @@ article.post-view__article .article__content .mjx-chtml {
 }
 @media screen and (max-width: 780px) {
   .head__inner h1 {
-    font-size: 4.2rem;
+    font-size: $font-size-m-4;
     line-height: 5.6rem;
   }
 }
@@ -268,7 +268,7 @@ article.post-view__article .article__content .mjx-chtml {
   box-shadow: inset 0 -0.8em 0 #a196e1;
 }
 .posts-item__title {
-  font-size: 5.2rem;
+  font-size: $font-size-l-1;
   line-height: 6.6rem;
   margin-bottom: 6rem;
 }
@@ -289,7 +289,7 @@ article.post-view__article .article__content .mjx-chtml {
   box-shadow: 0 0 5px 0px rgba(0,0,0,0.15);
 }
 .posts-item__excerpt {
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
   margin: 2rem 0 0 0;
   color: #444;
@@ -300,7 +300,7 @@ article.post-view__article .article__content .mjx-chtml {
 .post__tags,
 .post__date {
   position: relative;
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
   display: inline-block;
 }
@@ -337,7 +337,7 @@ article.post-view__article .article__content .mjx-chtml {
     padding: 1rem;
   }
   .posts-item__title {
-    font-size: 3.4rem;
+    font-size: $font-size-m-3;
     line-height: 4.4rem;
     margin-bottom: 4rem;
   }
@@ -364,7 +364,7 @@ article.post-view__article .article__content .mjx-chtml {
   }
 }
 .sidebar {
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
   padding: 2rem;
   margin: 2rem;
@@ -372,7 +372,7 @@ article.post-view__article .article__content .mjx-chtml {
   height: calc(100% - 4rem);
 }
 .sidebar h2 {
-  font-size: 2.2rem;
+  font-size: $font-size-m-1;
   line-height: 3rem;
   display: inline-block;
   padding: 0 0.2em;
@@ -451,7 +451,7 @@ article.post-view__article .article__content .mjx-chtml {
 }
 .paginator {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
   padding: 5rem 0;
 }
@@ -488,7 +488,7 @@ article.post-view__article .article__content .mjx-chtml {
   transform: translate(50%, -50%) scaleX(-1);
 }
 .paginator .page-number {
-  font-size: 1.8rem;
+  font-size: $font-size-s-3;
   line-height: 2.6rem;
   padding: 0 0.5em;
 }
@@ -506,7 +506,7 @@ article.post-view__article .article__content .mjx-chtml {
 }
 .pre-next .pre-button,
 .pre-next .next-button {
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
   padding: 1em;
   position: relative;
@@ -550,7 +550,7 @@ article.post-view__article .article__content .mjx-chtml {
 }
 .location-bar .text {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: $font-size-s-1;
   line-height: 2.2rem;
   margin: 0.2em 0;
   padding: 0 4rem;

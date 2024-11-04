@@ -1,4 +1,4 @@
-http://example.com/2024/4.html
+http://example.com/2024/2.html
 http://example.com/2024/1.html
 http://example.com/freetalk/index.html
 http://example.com/novel/%E5%9B%9B%E5%90%91%E6%A0%BC/index.html
